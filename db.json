@@ -29,38 +29,4 @@
         "name": "APA YA"
       }
     ]
-  },
-  {
-    "index": 1,
-    "isActive": false,
-    "picture": "http://placehold.it/300x300",
-    "name": "INISIAL TAEK ANJING",
-    "company": "ESQSOT",
-    "email": "elainewoodard@stralum.com",
-    "phone": "+1 (883) 165 000000000",
-    "about": "Ipsum ex aliqua ea anim magna cillum aute consequat pariatur Lorem velit est ea. Quis amet fugiat occaecat nulla aliqua aute. Quis fugiat non ullamco est quis velit laboris exercitation aute veniam qui. Id id non consectetur minim voluptate. Dolor fugiat proident sunt amet. Est magna non duis mollit sint velit id sint esse enim culpa magna laborum ad.\r\n",
-    "registered": "2015-01-02T11:20:10 -07:00",
-    "tags": [
-      "minim",
-      "ea",
-      "ad",
-      "esse"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "KUNYUK"
-      },
-      {
-        "id": 1,
-        "name": "JANCOEK"
-      },
-      {
-        "id": 2,
-        "name": "APA YA"
-      }
-    ]
   }
-  ]
-}
- 
