@@ -1,19 +1,58 @@
- <p>APAKAH KAMU JANCUK?</p>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+    </script>
+    <link rel="stylesheet" href="contoh.css">
+  </head>
+  <body>
+    <div class="quiz">
+    <p>APAKAH KAMU JANCUK?</p>
     <button id="1" name="1" value="0">Button1</button>
     <button id="2" name="2" value="0">Button2</button>
     <button id="3" name="3" value="10">Button3</button>
     <button id="4" name="4" value="0">Button4</button>
-    <button class="result" name="button" onclick="R()">CLICK HERE</button>
-
-    <script type="text/javascript">
-    $("button").click(function() {
+    
+    </div>
+      <script type="text/javascript">
+      
+      $("button").click(function() {
         var nilai = $(this).val();
         var x = nilai;
+              function getNilaix() {
+              return [x];
+          }
+                
+      });          
+      </script>   
 
-             $("button").click(function R() {        
-            var akhir = parseInt(x) + 10;
+      <div class="quiz2">
+        <p>APAKAH KAMU ANJING?</p>
+    <button id="5" name="E" value="0">Button5</button>
+    <button id="6" name="F" value="0">Button6</button>
+    <button id="7" name="G" value="10">Button7</button>
+    <button id="8" name="H" value="0">Button8</button><br>
+    <button class="result" name="button" onclick="R()">CLICK HERE</button>
+  
+    </div>
+    <script type="text/javascript">
+      
+      $("button").click(function() {
+        var nilai2 = $(this).val();
+        var y = nilai2;
+        var Nilaix = getNilaix();
+        var x = Nilaix;
+            $("button").click(function R() {        
+            var akhir = parseInt(y) + parseInt(x);
             window.alert(akhir);
 
           });
-    });
-    </script>
+    
+      });          
+      </script>
+
+
+  </body>
+</html>
